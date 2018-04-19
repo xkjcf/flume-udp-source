@@ -22,3 +22,17 @@ Many thanks for his work.
 https://github.com/ottomata/flume-ng/tree/udp-source
 
 This plugin is distributed under the same license as Apache Flume 1.4.
+
+### 编译
+
+执行`mvn package`编译，成功后得到如下三个关键文件：
+
+```
+target/flume-udp-source-1.0.0-SNAPSHOT.jar
+target/flume-udp-source-1.0.0-SNAPSHOT-sources.jar
+target/flume-udp-source-1.0.0-SNAPSHOT-javadoc.jar
+```
+
+将`flume-udp-source-1.0.0-SNAPSHOT.jar`添加到flume的lib目录下即可。
+
+目前在flume的1.5.2和1.6.0版本上测试没有问题。
